@@ -1,6 +1,6 @@
 import React from "react";
-import { PayInvoicePage } from "./PayInvoicePage";
-import { InvoicesPage } from "./InvoicesPage";
+import { PayInvoicePage } from "../features/payments/PayInvoicePage";
+import { InvoicesPage } from "../features/invoices/InvoicesPage";
 
 export function Dashboard({ page }: { page: "PAY" | "INVOICES" }) {
   return (

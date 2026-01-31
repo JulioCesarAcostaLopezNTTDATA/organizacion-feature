@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { fakeApi, type PayMethod } from "./shared/fakeAPI/db";
+import { fakeApi, type PayMethod } from "../../shared/fakeAPI/db";
 
 export function PayInvoicePage() {
   const [invoiceId, setInvoiceId] = useState("INV-001");

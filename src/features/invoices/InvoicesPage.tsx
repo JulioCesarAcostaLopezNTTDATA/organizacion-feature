@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fakeApi, type Invoice } from "./shared/fakeAPI/db";
+import { fakeApi, type Invoice } from "../../shared/fakeAPI/db";
 
 export function InvoicesPage() {
   const [loading, setLoading] = useState(false);
